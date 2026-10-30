@@ -287,60 +287,59 @@ div#simpleSearch {
 }
 
 /* well this is awkward, work around redone footer icons from mw 1.43 */
-#footer-copyrightico,
-#footer-poweredbyico {
-    .cdx-button--size-large {
-        min-height: 31px;
-    }
-
-    a {
-        border: none;
-        width: 88px;
-        height: 31px;
-        padding: 0;
-
-        /* hide the svg picture */
-        picture, img {
-            display: none;
-        }
-    }
+#footer-icons .cdx-button {
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
 }
 
-/* use retina-friendly versions from 2014-2021 but it looks identical */
-#footer-poweredbyico a {
-    background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/1.26wmf11/resources/assets/poweredby_mediawiki_88x31.png");
+#footer-poweredbyico a,
+#footer-copyrightico a[href*="wikimedia.org"] {
+    display: inline-block;
+    width: 88px;
+    height: 31px;
+    background-repeat: no-repeat;
     background-size: 88px 31px;
 }
 
-@media (min-resolution: 144dpi),
-(min-resolution: 1.5dppx) {
+#footer-poweredbyico a picture,
+#footer-poweredbyico a img,
+#footer-copyrightico a[href*="wikimedia.org"] picture,
+#footer-copyrightico a[href*="wikimedia.org"] img {
+    display: none;
+}
+
+#footer-poweredbyico a {
+    background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/1.26wmf11/resources/assets/poweredby_mediawiki_88x31.png");
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     #footer-poweredbyico a {
         background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/1.26wmf11/resources/assets/poweredby_mediawiki_132x47.png");
     }
 }
 
-@media (min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     #footer-poweredbyico a {
         background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/1.26wmf11/resources/assets/poweredby_mediawiki_176x62.png");
     }
 }
 
-#footer-copyrightico a {
+#footer-copyrightico a[href*="wikimedia.org"] {
     background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/images/wikimedia-button.png");
-    background-size: 88px 31px;
 }
 
-@media (min-resolution: 144dpi),
-(min-resolution: 1.5dppx) {
-    #footer-copyrightico a {
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    #footer-copyrightico a[href*="wikimedia.org"] {
         background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/images/wikimedia-button-1.5x.png");
     }
 }
 
-@media (min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    #footer-copyrightico a {
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    #footer-copyrightico a[href*="wikimedia.org"] {
         background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/images/wikimedia-button-2x.png");
     }
 }
