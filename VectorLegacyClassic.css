@@ -2,6 +2,7 @@
    Gamerappa's Classic Vector Restoration
    
    https://en.wikipedia.org/wiki/User:Gamerappa/vector.css
+   https://github.com/PF94/VectorLegacyClassic
 
    This custom CSS aims to restore Vector Legacy as to how it looked back in 
    2010-2012.
@@ -313,33 +314,33 @@ div#simpleSearch {
 }
 
 #footer-poweredbyico a {
-    background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/1.26wmf11/resources/assets/poweredby_mediawiki_88x31.png");
+    background-image: url("https://raw.githubusercontent.com/PF94/VectorLegacyClassic/refs/heads/main/poweredby_mediawiki_88x31.png");
 }
 
 @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     #footer-poweredbyico a {
-        background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/1.26wmf11/resources/assets/poweredby_mediawiki_132x47.png");
+        background-image: url("https://raw.githubusercontent.com/PF94/VectorLegacyClassic/refs/heads/main/poweredby_mediawiki_132x47.png");
     }
 }
 
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     #footer-poweredbyico a {
-        background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/1.26wmf11/resources/assets/poweredby_mediawiki_176x62.png");
+        background-image: url("https://raw.githubusercontent.com/PF94/VectorLegacyClassic/refs/heads/main/poweredby_mediawiki_176x62.png");
     }
 }
 
 #footer-copyrightico a[href*="wikimedia.org"] {
-    background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/images/wikimedia-button.png");
+    background-image: url("https://raw.githubusercontent.com/PF94/VectorLegacyClassic/refs/heads/main/wikimedia-button.png");
 }
 
 @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     #footer-copyrightico a[href*="wikimedia.org"] {
-        background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/images/wikimedia-button-1.5x.png");
+        background-image: url("https://raw.githubusercontent.com/PF94/VectorLegacyClassic/refs/heads/main/wikimedia-button-1.5x.png");
     }
 }
 
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     #footer-copyrightico a[href*="wikimedia.org"] {
-        background-image: url("//web.archive.org/web/20150701003039im_/https://en.wikipedia.org/static/images/wikimedia-button-2x.png");
+        background-image: url("https://raw.githubusercontent.com/PF94/VectorLegacyClassic/refs/heads/main/wikimedia-button-2x.png");
     }
 }
